@@ -1,0 +1,84 @@
+/* {
+    border: red solid 1px;
+}
+
+/* Nav Section */
+
+nav {
+    padding: 1%;
+    background-color: whitesmoke;
+    border-bottom: 1px black solid;
+}
+
+nav div {
+    display: inline-block;
+    padding: 25px;
+    background-color: lightgrey;
+    border-radius: 20%;
+}
+
+/* Left column of Layout */
+
+.leftColumn {
+    float: left;
+    height: 750px;
+    width: 31%;
+    padding:1%;
+    text-align: center;
+    border-right: 1px black solid;
+}
+
+.petStats {
+    text-align: left;
+    width: 100%;
+    border-top: 1px black solid;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Right Column of Layout */
+
+.rightColumn {
+    float: left;
+    height: 750px;
+    width: 64%;
+    padding: 1%;
+}
+
+/* Image styling */
+
+
+img {
+    width:250px;
+    border-radius: 20%;
+    margin: 25px;
+}
+
+.floatingImg {
+    float:left;
+
+}
+
+.imageGrid {
+    text-align: center;
+    border-top: 1px black solid;
+
+}
+
+.imgGrid {
+    display: inline-block;
+    height:200px;
+    object-fit: cover;
+}
+
+
+
